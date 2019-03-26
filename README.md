@@ -1,1 +1,4 @@
-# ildarganiev.github.io
+## CSS Трюки
+
+1. [Анимация подчеркивания ссылок](https://ildarganiev.github.io/animatedlink.html)
+2. [Градиентная рамка](https://ildarganiev.github.io/bordergradient.html)

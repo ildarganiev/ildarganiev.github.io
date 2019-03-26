@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bordergradient</title>
+    <style>
+        .wrapper {
+            font-size: 20px;
+            width: 50%;
+            min-height: 40%;
+            background-color: burlywood;
+            background:
+                linear-gradient(limegreen,
+                transparent),
+                linear-gradient(90deg,
+                skyblue,
+                transparent),
+                linear-gradient(-90deg,
+                coral,
+                transparent);
+
+            background-blend-mode: screen;
+            padding: 5px;
+        }
+
+        .box-content {
+            background-color: aliceblue;
+            padding: 20px;
+            ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="box-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, soluta.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, officiis enim? Minima neque obcaecati
+                eos, iste assumenda quae quidem maxime?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, ratione perspiciatis veniam
+                possimus, molestias aspernatur recusandae, soluta vero tempora blanditiis itaque at. Iste, ipsum.
+                Tenetur eos nihil error vitae at animi porro maiores quos soluta deleniti aut, optio illo. Dolorum ex
+                maxime odit a ullam in rem praesentium perferendis itaque!</p>
+        </div>
+    </div>
+</body>
+
+</html>

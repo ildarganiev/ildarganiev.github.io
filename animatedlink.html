@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Animated link</title>
+    <style type="text/css">
+        body {
+            font: 20px/1.5 Arial;
+            max-width: 960px;
+            margin: 0 auto;
+            background-color: #ccc;
+        }
+
+        a.left {
+            text-decoration: none;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 0% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+        }
+
+        a.center {
+            text-decoration: none;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 50% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+        }
+
+        a.right {
+            text-decoration: none;
+            background-image: linear-gradient(currentColor, currentColor);
+            background-position: 100% 100%;
+            background-repeat: no-repeat;
+            background-size: 0% 2px;
+            transition: background-size .3s;
+        }
+
+        a:hover {
+            background-size: 100% 2px;
+        }
+
+        .wrapper {
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti
+        veritatis omnis corporis illo provident atque voluptatibus earum doloribus
+        cumque dolor?<a href="#" class="left"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Reprehenderit, eum.</a> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Inventore distinctio, nobis eveniet officia saepe rem sequi quam perferendis architecto
+        ullam voluptates veniam possimus ducimus quia excepturi deserunt vero tenetur
+        doloremque doloribus, tempore aut consectetur maiores maxime dolorum in.
+        Voluptatibus, consequatur.
+        <a href="#" class="center">Lorem ipsum dolor sit amet.</a> Lorem ipsum
+        dolor sit amet consectetur adipisicing elit. Quod alias quaerat soluta autem sed obcaecati.
+        <a href="#" class="right">Lorem ipsum dolor sit amet.</a>
+        <ul>
+            <li><a href="#" class="left">left animation link</a></li>
+            <li><a href="#" class="center">center animation link</a></li>
+            <li><a href="#" class="right">right animation link</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
